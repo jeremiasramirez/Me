@@ -4,6 +4,12 @@
 body{
 	margin:0;
 	background-color: #13103B;
+	animation: flashs .8s linear;
+}
+@keyframes flashs{
+	to{
+		filter: blur(20px);
+	}
 }
 
 

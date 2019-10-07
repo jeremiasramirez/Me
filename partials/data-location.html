@@ -1,4 +1,9 @@
-<p><span>{{"Pais:" | uppercase}} </span>{{countryName}}</p>
-<p><span>{{"IP:" | uppercase}}</span> {{myip}}</p>
-<p><span>{{"Currency:" | uppercase}}</span> {{curr}}</p>
-<p><span>{{"Currency symbol:" | uppercase}}</span> {{currSymbol}}</p>
+<p><span>{{"Pais:" | uppercase}} </span> <p class="btn--yes">{{countryName}}</p></p>
+<p><span>{{"IP:" | uppercase}}</span> <p class="btn--yes">{{myip}}</p></p>
+<p><span>{{"Currency:" | uppercase}}</span> <p class="btn--yes">{{curr}}</p></p>
+<p><span>{{"Currency symbol:" | uppercase}}</span> <p class="btn--yes">{{currSymbol}}</p></p>
+<p><span>{{"Dollar:" | uppercase}}</span><p class="btn--yes">{{dollar | currency:"US$: "}}</p></p>
+<p><span>{{"City:" | uppercase}}</span><p class="btn--yes">{{city}}</p></p>
+<p><span>{{"Longitude:" | uppercase}}</span><p class="btn--yes">{{long}}</p></p>
+<p><span>{{"Latitude:" | uppercase}}</span><p class="btn--yes">{{lat}}</p></p>
+
