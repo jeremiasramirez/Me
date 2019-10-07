@@ -5,6 +5,16 @@ var me = angular.module("me", []);
 me.controller("showInformation", ["$scope", "$http", ($scope, $http)=>{
 
 
+	/*
+		path de elementos separados de la vista
+
+	*/
+	$scope.pathToData = "partials/data-location.html";
+
+
+
+
+
 /* 
 
 	request to extern app data(ajax)

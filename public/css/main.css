@@ -1,9 +1,17 @@
-
+/* 
+	body
+*/
 body{
 	margin:0;
 	background-color: #13103B;
 }
 
+
+/* 
+
+	title 
+
+*/
 .title__app{
 	margin:0;
 	font-family: arial;
@@ -11,21 +19,55 @@ body{
 	text-align: center;	
 	margin-bottom: 3.5em;
 }
+
+
+
+
+/* 
+
+	container 
+
+*/
+
 .container{
 	background-color: #11102D;
 	padding: 2em 1em;
 	transform: scale(.9);
 }
+
+
+
+/* 
+
+	Sub-container
+
+*/
 .containerData , .btns{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
 }
+
+
+
+/* 
+
+	sub-container  < paragraphs
+
+*/
 .containerData p{
 	color: #ddd;
 	font-size: 18px;
 }
+
+
+
+/*
+	
+	sub-container < paragraphs < span
+
+*/
 .containerData p span{
 	color: orange;
 	font-size:20px;
